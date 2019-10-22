@@ -1,22 +1,21 @@
 {
   "files": {
     "main.css": "/movie-ticket-booking-web/static/css/main.b100e6da.chunk.css",
-    "main.js": "/movie-ticket-booking-web/static/js/main.8e37ea65.chunk.js",
-    "main.js.map": "/movie-ticket-booking-web/static/js/main.8e37ea65.chunk.js.map",
+    "main.js": "/movie-ticket-booking-web/static/js/main.2e6bdfcd.chunk.js",
+    "main.js.map": "/movie-ticket-booking-web/static/js/main.2e6bdfcd.chunk.js.map",
     "runtime-main.js": "/movie-ticket-booking-web/static/js/runtime-main.bc05ba57.js",
     "runtime-main.js.map": "/movie-ticket-booking-web/static/js/runtime-main.bc05ba57.js.map",
-    "static/js/2.391021ad.chunk.js": "/movie-ticket-booking-web/static/js/2.391021ad.chunk.js",
-    "static/js/2.391021ad.chunk.js.map": "/movie-ticket-booking-web/static/js/2.391021ad.chunk.js.map",
+    "static/js/2.00e20f43.chunk.js": "/movie-ticket-booking-web/static/js/2.00e20f43.chunk.js",
+    "static/js/2.00e20f43.chunk.js.map": "/movie-ticket-booking-web/static/js/2.00e20f43.chunk.js.map",
     "index.html": "/movie-ticket-booking-web/index.html",
-    "precache-manifest.56c72d700a46e0ccb0f60db6861eec58.js": "/movie-ticket-booking-web/precache-manifest.56c72d700a46e0ccb0f60db6861eec58.js",
+    "precache-manifest.8ab32a15ce0ac17451f284eeda1f0fb9.js": "/movie-ticket-booking-web/precache-manifest.8ab32a15ce0ac17451f284eeda1f0fb9.js",
     "service-worker.js": "/movie-ticket-booking-web/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/movie-ticket-booking-web/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.svg": "/movie-ticket-booking-web/static/media/logo.25bf045c.svg"
+    "static/css/main.b100e6da.chunk.css.map": "/movie-ticket-booking-web/static/css/main.b100e6da.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.bc05ba57.js",
-    "static/js/2.391021ad.chunk.js",
+    "static/js/2.00e20f43.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.8e37ea65.chunk.js"
+    "static/js/main.2e6bdfcd.chunk.js"
   ]
 }

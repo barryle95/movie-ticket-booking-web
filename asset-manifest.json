@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/barryle95/movie-ticket-booking-web/static/css/main.b100e6da.chunk.css",
+    "main.js": "/barryle95/movie-ticket-booking-web/static/js/main.3cc7b75a.chunk.js",
+    "main.js.map": "/barryle95/movie-ticket-booking-web/static/js/main.3cc7b75a.chunk.js.map",
+    "runtime-main.js": "/barryle95/movie-ticket-booking-web/static/js/runtime-main.8148c1af.js",
+    "runtime-main.js.map": "/barryle95/movie-ticket-booking-web/static/js/runtime-main.8148c1af.js.map",
+    "static/js/2.391021ad.chunk.js": "/barryle95/movie-ticket-booking-web/static/js/2.391021ad.chunk.js",
+    "static/js/2.391021ad.chunk.js.map": "/barryle95/movie-ticket-booking-web/static/js/2.391021ad.chunk.js.map",
+    "index.html": "/barryle95/movie-ticket-booking-web/index.html",
+    "precache-manifest.7a5076ba1e530a58da3ff8b93e6db5c8.js": "/barryle95/movie-ticket-booking-web/precache-manifest.7a5076ba1e530a58da3ff8b93e6db5c8.js",
+    "service-worker.js": "/barryle95/movie-ticket-booking-web/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/barryle95/movie-ticket-booking-web/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/barryle95/movie-ticket-booking-web/static/media/logo.25bf045c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8148c1af.js",
+    "static/js/2.391021ad.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.3cc7b75a.chunk.js"
+  ]
+}

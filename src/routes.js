@@ -1,3 +1,4 @@
+//Home
 import Home from './pages/home/Home';
 import About from './pages/home/About';
 import Contact from './pages/home/Contact';
@@ -31,6 +32,7 @@ const routesHome = [
         path: '*',
         component: Error404,
     },
-]
+];
+
 
 export { routesHome };

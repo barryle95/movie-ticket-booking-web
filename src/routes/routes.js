@@ -1,9 +1,9 @@
 //Home
-import Home from './pages/home/Home';
-import About from './pages/home/About';
-import Contact from './pages/home/Contact';
-import Info from './pages/home/Info';
-import Error404 from './pages/home/Error404';
+import Home from '../pages/home/Home';
+import About from '../pages/home/About';
+import Contact from '../pages/home/Contact';
+import Info from '../pages/home/Info';
+import Error404 from '../pages/home/Error404';
 
 //routesHome array
 const routesHome = [

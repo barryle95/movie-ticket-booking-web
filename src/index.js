@@ -11,7 +11,7 @@ import rootReducer from './redux/reducers/rootReducer';
 
 //bootstrap, jquery, popper.js
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "bootstrap/dist/js/bootstrap.min.js";
+import 'bootstrap/dist/js/bootstrap.min.js';
 import 'popper.js/dist/umd/popper.min.js';
 import 'jquery/dist/jquery.min.js';
 

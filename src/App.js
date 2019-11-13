@@ -5,7 +5,7 @@ import './App.scss';
 import { BrowserRouter, Switch } from 'react-router-dom'; //Route bộ định tuyến
 
 //import routesHome
-import { routesHome } from './routes/routes';
+import { homeRoutes } from './routes/homeRoutes';
 
 //import HomeTemplate
 import HomeTemplate from './templates/HomeTemplate';
@@ -14,7 +14,7 @@ import HomeTemplate from './templates/HomeTemplate';
 class App extends React.Component {
 
   render() {
-    const showMenuHome = routes => {
+    const showHomeMenu = routes => {
       //Did U check array is null?
       if (routes && routes.length > 0) {
         return routes.map((item, index) => {
@@ -27,7 +27,7 @@ class App extends React.Component {
       <BrowserRouter>
         {/* <Navbar></Navbar> */}
         < Switch >
-          {showMenuHome(routesHome)}
+          {showHomeMenu(homeRoutes)}
         </Switch >
       </BrowserRouter >
     );

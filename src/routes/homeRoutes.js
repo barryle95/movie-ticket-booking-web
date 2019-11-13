@@ -3,10 +3,11 @@ import Home from '../pages/home/Home';
 import About from '../pages/home/About';
 import Contact from '../pages/home/Contact';
 import Info from '../pages/home/Info';
+import App from '../pages/home/App';
 import Error404 from '../pages/home/Error404';
 
 //routesHome array
-const routesHome = [
+const homeRoutes = [
     {
         exact: true,
         path: '/',
@@ -28,6 +29,11 @@ const routesHome = [
         component: Info,
     },
     {
+        exact: false,
+        path: '/app',
+        component: App,
+    },
+    {
         exact: true,
         path: '*',
         component: Error404,
@@ -35,4 +41,4 @@ const routesHome = [
 ];
 
 
-export { routesHome };
+export { homeRoutes };

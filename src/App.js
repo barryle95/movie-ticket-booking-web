@@ -11,8 +11,6 @@ import adminRoutes from './routes/adminRoutes';
 import HomeTemplate from './templates/HomeTemplate';
 
 //import Admin
-import Admin from './pages/admin/Admin';
-import AdminTemplate from './templates/AdminTemplate';
 
 
 class App extends React.Component {

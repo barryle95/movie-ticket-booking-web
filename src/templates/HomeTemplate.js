@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Route } from 'react-router-dom';
-import  HomeMenu  from '../components/HomeMenu';
+import HomeMenu from '../components/HomeMenu';
 
 const HomeLayout = props => {
     return (

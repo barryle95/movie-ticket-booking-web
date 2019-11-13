@@ -4,11 +4,9 @@ import './App.scss';
 //Router
 import { BrowserRouter, Switch, Route } from 'react-router-dom'; //Route bộ định tuyến
 
-//import routesHome
-import { homeRoutes } from './routes/homeRoutes';
-
-//import HomeTemplate
+//import Home
 import HomeTemplate from './templates/HomeTemplate';
+import homeRoutes from './routes/homeRoutes';
 
 //import Admin
 import Admin from './pages/admin/Admin';
@@ -40,6 +38,8 @@ class App extends React.Component {
       <BrowserRouter>
         {/* <Navbar></Navbar> */}
         < Switch >
+        {console.log(homeRoutes)}
+        {console.log(adminRoutes)}
           {showHomeMenu(homeRoutes)}
           {showAdminMenu(adminRoutes)}
         </Switch >

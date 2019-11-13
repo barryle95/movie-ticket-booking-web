@@ -5,9 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 //redux
-import { createStore } from 'redux';
+import { createStore, applyMiddleware, compose } from 'redux';
 import { Provider } from 'react-redux';
 import rootReducer from './redux/reducers/rootReducer';
+
+//thunk
+import thunk from 'redux-thunk';
 
 //bootstrap, jquery, popper.js
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,10 +18,11 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import 'popper.js/dist/umd/popper.min.js';
 import 'jquery/dist/jquery.min.js';
 
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const store = createStore(
     rootReducer,
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    composeEnhancers(applyMiddleware(thunk))
 );
 
 ReactDOM.render(

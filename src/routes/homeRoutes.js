@@ -41,4 +41,4 @@ const homeRoutes = [
 ];
 
 
-export { homeRoutes };
+export default homeRoutes;

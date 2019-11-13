@@ -30,17 +30,17 @@ const detailMovieAPI = (id) => {
             method: "GET",
             url: `http://movie0706.cybersoft.edu.vn/api/QuanLyPhim/LayThongTinPhim?MaPhim=${id}`,
         })
-        .then(res => {
-            console.log(res.data);
-            dispatch({
-                type: actionType.DETAIL_MOVIE,
-                movieDetail: res.data,
-            });
-        })
-        .catch(err => {
-            console.log(err.response)
-        })
+            .then(res => {
+                console.log(res.data);
+                dispatch({
+                    type: actionType.DETAIL_MOVIE,
+                    movieDetail: res.data,
+                });
+            })
+            .catch(err => {
+                console.log(err.response)
+            })
     }
 }
 
-export { saveMoviesAPI, detailMovieAPI}
+export { saveMoviesAPI, detailMovieAPI }

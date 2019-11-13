@@ -6,7 +6,7 @@ const AdminLayout = props => {
     return (
         <Fragment>
             <AdminMenu></AdminMenu>
-            {props.childern}
+            {props.children}
         </Fragment>
     )
 }

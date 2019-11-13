@@ -38,12 +38,10 @@ class App extends React.Component {
       <BrowserRouter>
         {/* <Navbar></Navbar> */}
         < Switch >
-        {console.log(homeRoutes)}
-        {console.log(adminRoutes)}
+          <Route path="/admin" component={Admin}></Route>
           {showHomeMenu(homeRoutes)}
           {showAdminMenu(adminRoutes)}
         </Switch >
-        <Route path="/admin" Component={Admin}></Route>
       </BrowserRouter >
     );
   }

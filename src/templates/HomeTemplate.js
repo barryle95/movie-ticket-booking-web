@@ -6,7 +6,7 @@ const HomeLayout = props => {
     return (
         <Fragment>
             <HomeMenu></HomeMenu>
-            {props.childern}
+            {props.children}
         </Fragment>
     )
 }

@@ -2,13 +2,18 @@ import React from 'react';
 import './App.scss';
 
 //Router
-import { BrowserRouter, Switch } from 'react-router-dom'; //Route bộ định tuyến
+import { BrowserRouter, Switch, Route } from 'react-router-dom'; //Route bộ định tuyến
 
-//import routesHome
+//import adminRoutes
 import { routesHome } from './routes/routes';
+import adminRoutes from './routes/adminRoutes';
 
-//import HomeTemplate
+//import Home
 import HomeTemplate from './templates/HomeTemplate';
+
+//import Admin
+import Admin from './pages/admin/Admin';
+import AdminTemplate from './templates/AdminTemplate';
 
 
 class App extends React.Component {
@@ -23,12 +28,22 @@ class App extends React.Component {
       }
     };
 
+    const showAdminMenu = routes => {
+      if (routes && routes.length > 0) {
+        return routes.map((item, index) => {
+          return <AdminTemplate key={index} exact={item.exact} path={item.path} Component={item.component}></AdminTemplate>
+        })
+      }
+    }
+
     return (
       <BrowserRouter>
         {/* <Navbar></Navbar> */}
         < Switch >
           {showMenuHome(routesHome)}
+          {showAdminMenu(adminRoutes)}
         </Switch >
+        <Route path="/admin" Component={Admin}></Route>
       </BrowserRouter >
     );
   }

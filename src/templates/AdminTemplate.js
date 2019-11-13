@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react';
 import { Route, Redirect } from 'react-router-dom';
+import AdminMenu from '../components/AdminMenu';
 
 const AdminLayout = props => {
     return (
         <Fragment>
-            <div>AdminMenu</div>
+            <AdminMenu></AdminMenu>
+            {props.childern}
         </Fragment>
     )
 }

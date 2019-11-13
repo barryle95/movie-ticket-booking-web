@@ -5,7 +5,7 @@ import './App.scss';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'; //Route bộ định tuyến
 
 //import adminRoutes
-import adminRoutes from './routes/adminRoutes';
+
 
 //import Home
 import HomeTemplate from './templates/HomeTemplate';

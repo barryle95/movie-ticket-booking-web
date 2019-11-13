@@ -2,19 +2,19 @@ import React from 'react';
 import './App.scss';
 
 //Router
-import { BrowserRouter, Switch, Route } from 'react-router-dom'; //Route bộ định tuyến
+import { BrowserRouter, Switch } from 'react-router-dom'; //Route bộ định tuyến
 
+//import routesHome
+import { homeRoutes } from './routes/homeRoutes';
 
-//import Home
+//import HomeTemplate
 import HomeTemplate from './templates/HomeTemplate';
-
-//import Admin
 
 
 class App extends React.Component {
 
   render() {
-    const showMenuHome = routes => {
+    const showHomeMenu = routes => {
       //Did U check array is null?
       if (routes && routes.length > 0) {
         return routes.map((item, index) => {
@@ -23,20 +23,12 @@ class App extends React.Component {
       }
     };
 
-    const showAdminMenu = routes => {
-      if (routes && routes.length > 0) {
-        return routes.map((item, index) => {
-          return <AdminTemplate key={index} exact={item.exact} path={item.path} Component={item.component}></AdminTemplate>
-        })
-      }
-    }
-
     return (
       <BrowserRouter>
         {/* <Navbar></Navbar> */}
         < Switch >
+          {showHomeMenu(homeRoutes)}
         </Switch >
-        <Route path="/admin" Component={Admin}></Route>
       </BrowserRouter >
     );
   }

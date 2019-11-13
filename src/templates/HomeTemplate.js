@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
 import { Route } from 'react-router-dom';
-import Navbar from './../components/Navbar';
+import  HomeMenu  from '../components/HomeMenu';
 
 const HomeLayout = props => {
     return (
         <Fragment>
-            <Navbar></Navbar>
+            <HomeMenu></HomeMenu>
             {props.childern}
         </Fragment>
     )

@@ -66,4 +66,4 @@ const addUserAPI = (user) => {
 
 };
 
-export { saveMoviesAPI, detailMovieAPI, actLoginAdmin, addUserAPI, }
+export { saveMoviesAPI, detailMovieAPI}

@@ -41,6 +41,29 @@ const detailMovieAPI = (id) => {
                 console.log(err.response)
             })
     }
-}
+};
+
+const actLoginAdmin = (user, history) => {
+    return dispatch => {
+        axios.post(`http://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/DangNhap`, user)
+            .then(res => {
+                console.log(res);
+                if (res.data.maLoaiNguoiDung === "QuanTri") {
+                    localStorage.setItem("userAdmin", JSON.stringify(res.data))
+                    //Chuyển trang nếu đăng nhập hợp lệ
+                    history.push("/admin/dashboard");
+                } else {
+                    alert("Error Login!")
+                }
+            })
+            .catch(err => {
+                console.log(err.response)
+            })
+    }
+};
+
+const addUserAPI = (user) => {
+
+};
 
 export { saveMoviesAPI, detailMovieAPI }

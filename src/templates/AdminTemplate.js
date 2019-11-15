@@ -14,7 +14,7 @@ const AdminLayout = props => {
 const AdminTemplate = ({Component, ...props}) => {
     return (
         <Route {...props} render={propsComponent => {
-            if (localStorage.getItem("admin")) {
+            if (localStorage.getItem("userAdmin")) {
                 return (
                     <AdminLayout>
                         <Component {...propsComponent}></Component>

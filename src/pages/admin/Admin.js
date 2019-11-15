@@ -29,11 +29,11 @@ class Admin extends Component {
         return (
             <form className="container" onSubmit={this.handleOnSubmit}>
                 <div className="form-group">
-                    <label htmlFor>Username</label>
+                    <label htmlFor={true}>Username</label>
                     <input type="text" className="form-control" name="taiKhoan" id aria-describedby="helpId" placeholder onChange={this.handleOnChange}/>
                 </div>
                 <div className="form-group">
-                    <label htmlFor>Password</label>
+                    <label htmlFor={true}>Password</label>
                     <input type="password" className="form-control" name="matKhau" id aria-describedby="helpId" placeholder onChange={this.handleOnChange}/>
                 </div>
                 <div className="form-group">

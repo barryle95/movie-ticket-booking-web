@@ -50,6 +50,6 @@ const mapDispatchToProps = dispatch => ({
 
 const mapStateToProps = state => ({
     moviesList: state.moviesReducer.moviesList,
-})
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(MoviesList);

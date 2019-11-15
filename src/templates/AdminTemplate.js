@@ -11,7 +11,7 @@ const AdminLayout = props => {
     )
 }
 
-const AdminTemplate = ({Component, ...props}) => {
+const AdminTemplate = ({ Component, ...props }) => {
     return (
         <Route {...props} render={propsComponent => {
             if (localStorage.getItem("userAdmin")) {
@@ -20,9 +20,9 @@ const AdminTemplate = ({Component, ...props}) => {
                         <Component {...propsComponent}></Component>
                     </AdminLayout>
                 )
-            } else {
-                return <Redirect to="/admin"></Redirect>
-            }
+            } 
+            return <Redirect to="/admin"></Redirect>
+            
         }}>
         </Route>
     );

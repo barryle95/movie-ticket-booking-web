@@ -62,8 +62,8 @@ const actLoginAdmin = (user, history) => {
     }
 };
 
-const addUserAPI = (user) => {
+const actAddUserAPI = (user) => {
 
 };
 
-export { saveMoviesAPI, detailMovieAPI }
+export { saveMoviesAPI, detailMovieAPI, actLoginAdmin, actAddUserAPI }

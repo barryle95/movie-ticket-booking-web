@@ -1,22 +1,31 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import Dashboard from '../pages/admin/Dashboard';
 
 export default class AdminMenu extends Component {
     render() {
         return (
-            <div className="sidebar-nav">
-                <div className="well" style={{ width: 300, padding: '8px 0' }}>
-                    <ul className="nav nav-list">
+            <div className="row">
+                <div className="col-3"> <nav className="">
+                    <ul className="list-unstyled components">
                         <li className="nav-header">Admin Menu</li>
-                        <li><NavLink to="/admin/dashboard"><i className="icon-home" />Dashboard</NavLink></li>
-                        <li><NavLink to="/addmin/message"><i className="icon-envelope" />Messages <span className="badge badge-info">4</span></NavLink></li>
-                        <li><NavLink to="/admin/comment"><i className="icon-comment" />Comments <span className="badge badge-info">10</span></NavLink></li>
-                        <li className="active"><NavLink to="/admin/add-user"><i className="icon-user" />Members</NavLink></li>
-                        <li className="divider" />
-                        <li><NavLink href="#"><i className="icon-comment" /> Settings</NavLink></li>
-                        <li><NavLink href="#"><i className="icon-share" /> Logout</NavLink></li>
+                        <li>
+                            <NavLink to="/admin/dashboard"><i className="nav-link" />DASHBOARD</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/admin/add-movie"><i className="nav-link" />QUẢN LÝ PHIM</NavLink>
+                        </li>
+                        <li>
+                            <NavLink to="/admin/add-user"><i className="nav-link" />QUẢN LÝ NGƯỜI DÙNG</NavLink>
+                        </li>
+                        <li>
+                        <li>
+                            <NavLink to="/"><i className="nav-link" />TRANG CHỦ</NavLink>
+                        </li>
+                        </li>
                     </ul>
-                </div>
+                </nav></div>
+                <div className="col-9"><Dashboard></Dashboard></div>
             </div>
         )
     }

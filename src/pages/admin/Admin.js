@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import * as action from '../../redux/action/index';
-import AdminMenu from '../../components/AdminMenu';
 
 class Admin extends Component {
     constructor(props) {

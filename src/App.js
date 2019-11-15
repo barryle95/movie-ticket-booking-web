@@ -39,8 +39,9 @@ class App extends React.Component {
         {/* <Navbar></Navbar> */}
         < Switch >
           <Route path="/admin" component={Admin}></Route>
-          {showHomeMenu(homeRoutes)}
           {showAdminMenu(adminRoutes)}
+          {console.log(adminRoutes)}
+          {showHomeMenu(homeRoutes)}
         </Switch >
       </BrowserRouter >
     );

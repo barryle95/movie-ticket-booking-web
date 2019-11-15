@@ -7,7 +7,6 @@ export default class Dashboard extends Component {
     render() {
         return (
             <div>
-                <AdminMenu></AdminMenu>
                 <AddMovies></AddMovies>
                 <AddUsers></AddUsers>
             </div>

@@ -4,8 +4,8 @@ import AddMovies from '../pages/admin/AddMovies';
 
 const adminRoutes = [
     {
-        path: "/admin/dashboard",
         exact: false,
+        path: "/admin/dashboard",
         component: Dashboard,
     },
     // {
@@ -19,13 +19,13 @@ const adminRoutes = [
     //     component: Comment,
     // },
     {
-        path: "/admin/add-movies",
         exact: false,
+        path: "/admin/add-movies",
         component: AddMovies,
     },
     {
-        path: "/admin/add-user",
         exact: false,
+        path: "/admin/add-user",
         component: AddUsers,
     },
 ]

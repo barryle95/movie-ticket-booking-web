@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import * as action from '../../redux/action/index';
+import AdminMenu from '../../components/AdminMenu';
 
 class Admin extends Component {
     constructor(props) {
@@ -27,19 +28,21 @@ class Admin extends Component {
     
     render() {
         return (
-            <form className="container" onSubmit={this.handleOnSubmit}>
+            <div>
+                 <form className="container" onSubmit={this.handleOnSubmit}>
                 <div className="form-group">
-                    <label htmlFor={true}>Username</label>
+                    <label htmlFor="true">Username</label>
                     <input type="text" className="form-control" name="taiKhoan" id aria-describedby="helpId" placeholder onChange={this.handleOnChange}/>
                 </div>
                 <div className="form-group">
-                    <label htmlFor={true}>Password</label>
+                    <label htmlFor="true">Password</label>
                     <input type="password" className="form-control" name="matKhau" id aria-describedby="helpId" placeholder onChange={this.handleOnChange}/>
                 </div>
                 <div className="form-group">
-                    <button name="" id="" class="btn btn-primary" type="submit" value="">Login</button>
+                    <button name="" id="" className="btn btn-primary" type="submit" value="">Login</button>
                 </div>
             </form>
+            </div>
         )
     }
 }

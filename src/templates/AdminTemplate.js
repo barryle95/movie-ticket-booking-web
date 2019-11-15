@@ -20,9 +20,9 @@ const AdminTemplate = ({ Component, ...props }) => {
                         <Component {...propsComponent}></Component>
                     </AdminLayout>
                 )
-            } 
-            return <Redirect to="/admin"></Redirect>
-            
+            } else {
+                return <Redirect to="/admin"></Redirect>
+            }   
         }}>
         </Route>
     );

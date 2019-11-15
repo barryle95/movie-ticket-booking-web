@@ -5,6 +5,7 @@ import Contact from '../pages/home/Contact';
 import Info from '../pages/home/Info';
 import App from '../pages/home/App';
 import Error404 from '../pages/home/Error404';
+import MoviesList from '../components/MoviesList';
 
 //routesHome array
 const homeRoutes = [
@@ -32,6 +33,11 @@ const homeRoutes = [
         exact: false,
         path: '/app',
         component: App,
+    },
+    {
+        exact: false,
+        path: '/movies-list',
+        component: MoviesList,
     },
     {
         exact: true,

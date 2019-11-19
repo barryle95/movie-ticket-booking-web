@@ -5,6 +5,9 @@ import { NavLink } from 'react-router-dom';
 
 class MoviesList extends Component {
 
+    componentDidMount() {
+        this.props.saveMoviesList();
+    }
     renderHTML = () => {
         const { moviesList } = this.props;
         console.log(moviesList);

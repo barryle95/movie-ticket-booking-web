@@ -26,9 +26,6 @@ export default class HomeMenu extends Component {
                                     <li className="nav-item">
                                         <NavLink activeClassName="active" className="nav-link" to="/app">ỨNG DỤNG</NavLink>
                                     </li>
-                                    <li className="nav-item">
-                                        <NavLink activeClassName="active" className="nav-link" to="/list-movies">DANH SÁCH PHIM</NavLink>
-                                    </li>
                                 </ul>
                                 <form className="form-inline my-2 my-lg-0">
                                     <button className="btn btn-outline-primary my-2 my-sm-0 mr-2" type="submit">Đăng nhập</button>

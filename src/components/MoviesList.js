@@ -8,6 +8,7 @@ class MoviesList extends Component {
     renderHTML = () => {
         const { moviesList } = this.props;
         console.log(moviesList);
+        console.log(1)
         return moviesList.map((item, index) => {
             console.log(item)
             return (
@@ -35,8 +36,11 @@ class MoviesList extends Component {
 
     render() {
         return (
-            <div className="row">
-                {this.renderHTML()}
+            <div className="container">
+                <h1>DANH SÁCH PHIM NÈ</h1>
+                <div className="row">
+                    {this.renderHTML()}
+                </div>
             </div>
         )
     }

@@ -36,7 +36,7 @@ const homeRoutes = [
     },
     {
         exact: false,
-        path: '/movies-list',
+        path: '/list-movies',
         component: MoviesList,
     },
     {

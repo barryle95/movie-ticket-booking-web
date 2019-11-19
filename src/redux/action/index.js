@@ -6,10 +6,8 @@ import axios from 'axios';
 const saveMoviesAPI = () => {
     return dispatch => {
         console.log(1);
-        axios({
-            method: "GET",
-            url: `http://movie0706.cybersoft.edu.vn/api/QuanLyPhim/LayDanhSachPhim?maNhom=GP05`,
-        })
+        axios.get(`http://movie0706.cybersoft.edu.vn/api/QuanLyPhim/LayDanhSachPhim?maNhom=GP05
+        `)
             .then(res => {
                 console.log(res.data);
                 dispatch({

@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/movie-ticket-booking-web/static/css/main.ac19226a.chunk.css",
-    "main.js": "/movie-ticket-booking-web/static/js/main.81f4e1c3.chunk.js",
-    "main.js.map": "/movie-ticket-booking-web/static/js/main.81f4e1c3.chunk.js.map",
+    "main.css": "/movie-ticket-booking-web/static/css/main.70790de3.chunk.css",
+    "main.js": "/movie-ticket-booking-web/static/js/main.5270473a.chunk.js",
+    "main.js.map": "/movie-ticket-booking-web/static/js/main.5270473a.chunk.js.map",
     "runtime-main.js": "/movie-ticket-booking-web/static/js/runtime-main.bc05ba57.js",
     "runtime-main.js.map": "/movie-ticket-booking-web/static/js/runtime-main.bc05ba57.js.map",
     "static/css/2.0624914a.chunk.css": "/movie-ticket-booking-web/static/css/2.0624914a.chunk.css",
-    "static/js/2.a519b0f5.chunk.js": "/movie-ticket-booking-web/static/js/2.a519b0f5.chunk.js",
-    "static/js/2.a519b0f5.chunk.js.map": "/movie-ticket-booking-web/static/js/2.a519b0f5.chunk.js.map",
+    "static/js/2.51cf3a90.chunk.js": "/movie-ticket-booking-web/static/js/2.51cf3a90.chunk.js",
+    "static/js/2.51cf3a90.chunk.js.map": "/movie-ticket-booking-web/static/js/2.51cf3a90.chunk.js.map",
     "index.html": "/movie-ticket-booking-web/index.html",
-    "precache-manifest.3a204e73fe3802bb32ef9dca4d401087.js": "/movie-ticket-booking-web/precache-manifest.3a204e73fe3802bb32ef9dca4d401087.js",
+    "precache-manifest.714fbdd414a7592a07e39083b8ff6710.js": "/movie-ticket-booking-web/precache-manifest.714fbdd414a7592a07e39083b8ff6710.js",
     "service-worker.js": "/movie-ticket-booking-web/service-worker.js",
     "static/css/2.0624914a.chunk.css.map": "/movie-ticket-booking-web/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.ac19226a.chunk.css.map": "/movie-ticket-booking-web/static/css/main.ac19226a.chunk.css.map"
+    "static/css/main.70790de3.chunk.css.map": "/movie-ticket-booking-web/static/css/main.70790de3.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.bc05ba57.js",
     "static/css/2.0624914a.chunk.css",
-    "static/js/2.a519b0f5.chunk.js",
-    "static/css/main.ac19226a.chunk.css",
-    "static/js/main.81f4e1c3.chunk.js"
+    "static/js/2.51cf3a90.chunk.js",
+    "static/css/main.70790de3.chunk.css",
+    "static/js/main.5270473a.chunk.js"
   ]
 }
